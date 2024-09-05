@@ -1,0 +1,15 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "cargo build && napi build",
+    "build-release": "cargo build --release && napi build --release"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "napi-rs": "latest"
+  }
+}
